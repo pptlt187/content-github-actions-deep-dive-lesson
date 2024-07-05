@@ -10,9 +10,9 @@ def lambda_handler(event, context):
     """
     print('Starting functions\n---------------------------------------------')
 
-    if event["input"] == "Hello":
+    if event["input"] == "Hi":
 
-        return "World"
+        return "Welcome to HelloCloud !!!"
 
     else:
 
